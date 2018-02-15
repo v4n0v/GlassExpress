@@ -6,7 +6,12 @@
 
     <groupId>GlassExpress</groupId>
     <artifactId>glass_express</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>glass_express_UI</module>
+        <module>glass_express_core</module>
+    </modules>
 
     <dependencies>
 
@@ -15,7 +20,24 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>5.1.31</version>
             </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.3.1</version>
+        </dependency>
 
     </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.fxml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
 
 </project>

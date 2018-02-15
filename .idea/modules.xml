@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GlassExpress.iml" filepath="$PROJECT_DIR$/GlassExpress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glass_express_UI/glass_express_UI.iml" filepath="$PROJECT_DIR$/glass_express_UI/glass_express_UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glass_express_core/glass_express_core.iml" filepath="$PROJECT_DIR$/glass_express_core/glass_express_core.iml" />
     </modules>
   </component>
 </project>

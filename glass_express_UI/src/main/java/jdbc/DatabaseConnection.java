@@ -1,4 +1,4 @@
-package com.jdbc;
+package jdbc;
 
 
 import com.mysql.fabric.jdbc.FabricMySQLDriver;
@@ -19,7 +19,7 @@ public class DatabaseConnection {
 
     public void connect() {
 
-
+        //String URL = "jdbc: mysql://mysql:3306/";
         String URL = "jdbc:mysql://localhost:3306/";
 
 

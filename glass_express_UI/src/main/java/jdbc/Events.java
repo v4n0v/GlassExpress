@@ -1,4 +1,4 @@
-package com.jdbc;
+package jdbc;
 
 public class Events {
    static final String DRIVER_CREATE_ERROR ="Ошибка создания драйвера...\n";
